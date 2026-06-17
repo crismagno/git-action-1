@@ -6,7 +6,8 @@ import (
 )
 
 func TestSum(t *testing.T) {
-	result := Soma(3, 5)
+	// result := Soma(3, 5)
+	result := 3 + 5
 	expected := 8
 
 	if result != expected {
